@@ -1,24 +1,265 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
+
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Playbook - Preescolar Sesión 17</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
+<header>
+<h1><span class="book-icon">📋</span> <strong>Playbook Sesión 17 Kínder 2</strong></h1>
+<div class="header-widgets">
+<div class="timer-container">
+<span id="timer">⏱️ 00:00</span>
+<button id="startStop">Start</button>
+<button id="reset">Reset</button>
+</div>
+<div class="theme-toggle">
+<i class="fas fa-sun"></i>
+<label class="switch">
+<input type="checkbox" id="theme-toggle-input">
+<span class="slider round"></span>
+</label>
+<i class="fas fa-moon"></i>
+</div>
+</div>
+</header>
+<div class="main-container">
+<aside class="activity-list">
+<h2>Actividades</h2>
+<ul>
+<li><a href="#activity-0">📝</a></li>
+<li><a href="#activity-1">1</a></li>
+<li><a href="#activity-2">2</a></li>
+<li><a href="#activity-3">3</a></li>
+<li><a href="#activity-4">4</a></li>
+</ul>
+<div class="sidebar-info">
+<p>💡 Cada actividad está diseñada para ser lúdica y captar la atención de los más pequeños.</p>
+<p>⏱️ Los tiempos son una guía. Sé flexible y adáptate al ritmo del grupo.</p>
+</div>
+</aside>
+<main class="content">
+<div class="progress-bar">
+<div class="progress"></div>
+</div>
+<button id="toggle-dialogues">Mostrar todos los diálogos</button>
+<div class="activity-card" id="activity-0">
+<h2><span class="book-icon">📝</span> De un Vistazo: Misión: ¡El Gran Montaje del Circuito Solidario!</h2>
+<p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para esta aventura de aprendizaje.</p>
+<div class="overview-table-container">
+<table>
+<thead>
+<tr>
+<th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+<th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>Objetivos de Aprendizaje:</strong>
+<ul>
+<li>Construir el circuito de vías según el plan diseñado.</li>
+<li>Colocar los ladrillos de acción para implementar la lógica.</li>
+<li>Realizar las primeras pruebas y observar el comportamiento.</li>
+</ul>
+<strong>Secuencia Didáctica de la Misión:</strong>
+<ul>
+<li>⚡ Actividad 1: Bienvenida y Calentamiento Cerebral</li>
+<li>⚡ Actividad 2: Planteamiento del Reto y Cuento</li>
+<li>⚡ Actividad 3: ¡Manos a la Obra! (Actividad Principal)</li>
+<li>⚡ Actividad 4: Puesta en Común y Cierre de la Misión</li>
+</ul>
+<strong>Entregable Clave:</strong>
+<ul>
+<li>Circuito de vías construido colaborativamente siguiendo el plan.</li>
+<li>Ladrillos de acción colocados estratégicamente para la lógica del desvío.</li>
+<li>Observación activa de las primeras pruebas del tren para identificar y discutir posibles "bugs".</li>
+</ul>
+</td>
+<td>
+<strong>Materiales Específicos:</strong>
+<ul>
+<li>Planos de la sesión anterior.</li>
+<li>Tren Coding Express y muchas vías.</li>
+<li>Ladrillos de acción.</li>
+<li>Bloques LEGO Duplo y figuras para decorar.</li>
+</ul>
+<strong>Preparación Previa para ESTA Sesión:</strong>
+<ol>
+<li><strong>Revisión de Materiales:</strong> Asegurar que todos los materiales estén completos, limpios y listos para ser repartidos.</li>
+<li><strong>Preparación del Espacio:</strong> Organizar el aula para facilitar la actividad (círculo en el suelo, mesas de trabajo, espacio para moverse).</li>
+<li><strong>Familiarización:</strong> Leer el playbook completo para entender el flujo narrativo, los diálogos y las transiciones. Tener clara la historia o el reto que se presentará.</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="activity-card" id="activity-1">
+<h2>⚡ Actividad 1: ¡Bienvenidos al Taller de Ingenieros! ⏰ 2 min</h2>
+<p>Nos preparamos para una misión de construcción épica, activando nuestra mente y cuerpo.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Activando Motores y Dando la Bienvenida ⏰ 1 min</h3>
+<p>Recibe a los niños con entusiasmo. Invita a todos a ponerse en modo "ingenieros" con un gesto o accesorio, como si se pusieran un casco de construcción imaginario. (Proyectar Diapositiva 1)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Hola, hola, pequeños grandes ingenieros y arquitectos del futuro! ¡Qué emoción ver esas caritas llenas de energía! Hoy tenemos una misión súper, súper importante. Para empezar, ¿están listos para ponernos nuestros "cascos de construcción" imaginarios? ¡A la cuenta de tres, nos lo ponemos! ¡Uno, dos, y... ¡PUM! ¡Ya somos ingenieros listos para construir!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Nuestra Gran Misión de Construcción ⏰ 1 min</h3>
+<p>Explica brevemente la misión del día: construir el circuito para el tren solidario. Anima a los niños a usar su creatividad y trabajo en equipo. (Proyectar Diapositiva 2)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Muy bien, ingenieros! Hoy es el día en que vamos a usar nuestras manos y nuestra mente para crear algo increíble. ¿Recuerdan nuestro tren solidario que lleva ayuda a la comunidad? Pues hoy vamos a construir los caminos para que pueda viajar por todos lados. ¡Necesitaremos de su creatividad, su ingenio y, sobre todo, su maravilloso trabajo en equipo! ¿Están listos para la aventura de construcción?</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-2">
+<h2>⚡ Actividad 2: El Mapa del Ingeniero: ¡A Construir Nuestro Circuito de Ayuda! ⏰ 3 min</h2>
+<p>Revisamos los planos secretos de nuestra comunidad solidaria y descubrimos el gran reto que nos espera.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Recordando Nuestros Diseños Secretos ⏰ 1.5 min</h3>
+<p>Presenta los planos o mapas que los niños diseñaron en la sesión anterior. Pregúntales qué recuerdan de sus ideas y dibujos. (Proyectar Diapositiva 3)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Ingenieros, miren lo que tengo aquí! ¿Recuerdan estos mapas y dibujos que hicimos la vez pasada? ¡Son nuestros planos secretos para el Circuito de Ayuda de la Comunidad! ¿Quién recuerda qué dibujamos? ¿Qué caminos queríamos que tomara nuestro tren solidario? ¡Es hora de recordar todas esas ideas geniales que tuvieron!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: ¡Hoy Hacemos Realidad el Gran Plan! ⏰ 1.5 min</h3>
+<p>Conecta los planos con la actividad de hoy: construir físicamente el circuito. Anima a los equipos a revisar su "Spark Code" o plan de acción. (Proyectar Diapositiva 4)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Excelente! Pues hoy es el día en que esos dibujos y esos planes van a cobrar vida. Vamos a transformar nuestras ideas en un circuito de verdad. Cada equipo tiene su mapa y su plan, ¡como si fuera un tesoro escondido! ¿Listos para usar sus planos y construir el camino para nuestro tren? ¡Vamos a ver esos cerebritos de ingenieros en acción!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-3">
+<h2>⚡ Actividad 3: Construyendo Caminos y Magia Lógica ⏰ 30 min</h2>
+<p>Con nuestras manos y mentes, daremos vida al circuito, ¡poniendo cada pieza en su lugar y añadiendo la magia de los ladrillos de acción!</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Montando las Vías del Tren Solidario ⏰ 7 min</h3>
+<p>Distribuye el Tren Coding Express y las vías a cada equipo. Guía a los niños para que comiencen a construir el circuito en el suelo, siguiendo el trazado de su plano. Fomenta la colaboración y la comunicación entre los miembros del equipo. (Proyectar Diapositiva 5)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Manos a la obra, super constructores! ¡Es hora de que esos planos cobren vida! Aquí tienen las vías y su tren Coding Express. Miren su mapa, ¿dónde va cada caminito? ¿Cómo se unen las vías para formar el circuito que diseñaron? ¡Recuerden trabajar juntos como un gran equipo de ingenieros! ¡Cada pieza es importante!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Dando Vida a la Comunidad con LEGO Duplo ⏰ 8 min</h3>
+<p>Una vez que las vías estén en su lugar, distribuye los bloques LEGO Duplo y figuras. Anima a los niños a construir los edificios y elementos de su comunidad alrededor del circuito, tal como lo imaginaron en sus planos. Esto añade contexto y creatividad al proyecto. (Proyectar Diapositiva 6)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Qué bien va ese circuito! Ahora, para que nuestra comunidad sea aún más real, ¿qué tal si construimos los edificios y los lugares especiales que el tren visitará? Aquí tenemos muchos bloques LEGO Duplo y figuras. ¿Dónde va el hospital? ¿Y la escuela? ¡Dejen volar su imaginación y construyan la comunidad más solidaria de todas!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 3: El Secreto de la Magia: Colocando los Ladrillos de Acción ⏰ 7 min</h3>
+<p>Introduce los ladrillos de acción, explicando que son como "botones mágicos" para el tren. Enfócate en el ladrillo de desvío "si-entonces" y guía a los niños para que lo coloquen estratégicamente en su circuito según su plan. (Proyectar Diapositiva 7)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Súper bien! Ahora viene la parte más mágica, ¡los ladrillos de acción! Estos ladrillos son como pequeños cerebritos que le dicen al tren qué hacer. ¿Recuerdan que nuestro tren es muy inteligente y puede decidir qué camino tomar? ¡Estos ladrillos le enseñan! ¿Dónde creen que debe ir el ladrillo que le dice 'si' el tren ve algo, entonces 'haz' esto? ¡Piénsenle, piénsenle bien para que la magia funcione!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 4: ¡Primera Prueba! ¿Qué Hace Nuestro Tren Solidario? ⏰ 8 min</h3>
+<p>Una vez que los ladrillos de acción estén en su lugar, invita a los equipos a realizar las primeras pruebas con el tren. Fomenta la observación atenta: "¿El tren hizo lo que esperaban?". Crea un ambiente de "taller" donde los errores no son fallos, sino descubrimientos valiosos para aprender. (Proyectar Diapositiva 8)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Llegó el momento emocionante! Es hora de poner a prueba nuestro tren. ¡Enciéndanlo y vean qué hace! Observen muy, muy bien. ¿Pasó por donde querían? ¿Hizo el desvío? No se preocupen si algo no sale como esperábamos al principio. En nuestro taller de ingenieros, cada "error" o sorpresa es una pista para aprender más y mejorar nuestro diseño. ¡A explorar y descubrir!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-4">
+<h2>⚡ Actividad 4: Nuestros Descubrimientos y Celebración del Taller ⏰ 5 min</h2>
+<p>Compartimos nuestras construcciones, celebramos los éxitos y aprendemos de los pequeños "bugs" que encontramos en el camino.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Presentando Nuestras Obras Maestras ⏰ 2 min</h3>
+<p>Pide a cada equipo que muestre su circuito completo a los demás. Anima a cada grupo a describir qué construyeron y qué funciones especiales tiene su tren. Pregunta: "¿Están orgullosos de su circuito? ¿Qué es lo que más les gusta?". (Proyectar Diapositiva 9)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Wow, equipo! ¡Qué circuitos tan increíbles construyeron! ¡Son unos verdaderos ingenieros y artistas! Ahora, ¿quién quiere mostrarnos su increíble Circuito de Ayuda y contarnos un poco sobre él? ¿Qué edificios construyeron? ¿Qué hace su tren? ¡Queremos ver sus obras maestras y escuchar sus historias!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Los Pequeños "Bugs": ¡Grandes Descubrimientos! ⏰ 2 min</h3>
+<p>Fomenta una discusión abierta y positiva sobre las pruebas. Pregunta: "¿El tren hizo siempre lo que esperaban? ¿Encontraron algún 'bug' o algo que los sorprendió?". Enfatiza que los "bugs" son oportunidades para aprender y mejorar, no errores. (Proyectar Diapositiva 10)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Súper bien! Y, ¿encontraron algún pequeño 'bug' o algo que el tren hizo diferente de lo que esperaban? ¡No pasa nada! En el mundo de la ingeniería, los 'bugs' son solo pistas para mejorar. Es como un detective que encuentra una nueva pista. ¡Aprendimos muchísimo hoy al descubrir esas cositas!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 3: ¡Misión Cumplida y Felicitaciones, Ingenieros! ⏰ 1 min</h3>
+<p>Concluye la sesión felicitando a todos los niños por su esfuerzo, colaboración y creatividad. Refuerza la idea de que trabajaron como un verdadero equipo de ingenieros. (Proyectar Diapositiva 11)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Felicidades, equipo de constructores e ingenieros! ¡Misión de montaje cumplida con creces! Han trabajado juntos, han pensado mucho y han creado unos circuitos asombrosos. ¡Son los mejores! ¡Gracias por poner tanto corazón y energía en construir nuestro Circuito de Ayuda de la Comunidad! ¡Nos vemos en la próxima aventura!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<script src="script.js"></script>
 </body>
-
 </html>
